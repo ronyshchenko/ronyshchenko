@@ -18,6 +18,10 @@ exports.config = {
       url: 'http://localhost',
       show: true,
       browser: 'chromium'
+    },
+
+    "ChaiWrapper" : {
+      "require": "codeceptjs-chai"
     }
   },
   include: {
@@ -26,7 +30,9 @@ exports.config = {
     "mainPage": "./pages/main.js",
     "registerPage": "./pages/register.js",
     "generalPage": "./pages/general.js",
-    "registrationPage": "./pages/registration.js"
+    "registrationPage": "./pages/registration.js",
+    "productPage": "./pages/product.js",
+    "checkoutPage": "./pages/checkout.js"
   },
   name: 'ronyshchenko'
 }
